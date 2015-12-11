@@ -86,3 +86,54 @@ a.more {
   border-bottom: 1px solid #CCC;
   padding-bottom: 20px;
 }
+
+input, select, textarea {
+  margin-bottom: 15px;
+}
+
+label {
+  display: inline-block;
+  width: 180px;
+}
+
+input[type='text'], select, textarea {
+  padding: 3px;
+  height: 20px;
+  width: 200px;
+  border: 1px #CCC solid;
+}
+
+select {
+  height: 28px;
+}
+
+textarea {
+  height: 70px;
+  width: 400px;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  list-style: none;
+}
+
+.alert-danger {
+  color: #A94442;
+  background-color: #F2DEDE;
+  border-color: #EBCCE1;
+}
+
+ul.success li {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  list-style: none;
+  color: #3C763D;
+  background-color: #DFF0D8;
+  border-color: #D6E9C6;
+}
