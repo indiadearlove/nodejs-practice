@@ -87,6 +87,10 @@ a.more {
   padding-bottom: 20px;
 }
 
+.post img {
+  width: 100%;
+}
+
 input, select, textarea {
   margin-bottom: 15px;
 }
@@ -136,4 +140,10 @@ ul.success li {
   color: #3C763D;
   background-color: #DFF0D8;
   border-color: #D6E9C6;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  height: 30px;
 }
